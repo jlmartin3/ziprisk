@@ -1,0 +1,32 @@
+.vertical-separator {
+    border-left: 1px solid #ccc;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  @media (max-width: 767px) {
+    .vertical-separator {
+      display: none;
+    }
+  }
+
+
+
+  .ui.header {
+    margin-top: 20px;
+  }
+  
+  /* Optional styles to make the form and todo list scrollable */
+  .form-container,
+  .todo-list {
+    height: 400px;
+    overflow: auto;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
